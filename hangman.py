@@ -3,7 +3,6 @@ from hangman_words import words
 from hangman_draw import stages
 from hangman_draw import logo
 lifes = 6
-print(words)
 print(logo)
 print(f"Hey buddy, welcome to the hangman game. You have {lifes} lifes.")
 print("You have to guess the word correctly before running out of your lifes, otherwise the hangman will die!")
